@@ -1,3 +1,12 @@
 # Python 3.12 기준 필수 패키지
 # tkinter는 Python 내장 라이브러리이므로 별도 설치 불필요
-tkcalendar==1.6.1 
+tkcalendar==1.6.1
+tkhtmlview==0.2.0
+html2text==2020.1.16
+Pillow>=9.4.0,<10.0.0  # tkhtmlview와 호환되는 버전
+tkinterweb==3.23.5  # 웹 브라우저 컴포넌트 
+
+# GUI Framework
+PyQt6>=6.8.1
+PyQt6-Qt6>=6.8.0
+PyQt6-sip>=13.8 
